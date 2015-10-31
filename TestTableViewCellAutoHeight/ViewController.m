@@ -111,6 +111,7 @@ const int TABLE_VIEW_HEADER_HEIGHT = 80;
     [self.view addSubview:twoColumnScrollView];
 }
 
+// 點擊切換鈕
 -(IBAction)switchButton:(UIButton *)sender {
     CGRect switchLabelViewFrame = [switchLabelView frame];
     
@@ -147,6 +148,7 @@ const int TABLE_VIEW_HEADER_HEIGHT = 80;
     }];
 }
 
+// 取得呈現的資料列
 -(void)getArray {
     oneColumnArray = [[NSMutableArray alloc] init];
     [oneColumnArray addObject:@"ABCDEGFHIJKLMNOPQRSTUVWXYZ0123456789"];
@@ -213,6 +215,7 @@ const int TABLE_VIEW_HEADER_HEIGHT = 80;
     }
 }
 
+// 重新定義每一列的高度
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if ([tableView isEqual:oneColumnTableView]) {
         //AutoSizeTableViewCell *cell = [[AutoSizeTableViewCell alloc] init];
@@ -239,8 +242,8 @@ const int TABLE_VIEW_HEADER_HEIGHT = 80;
         return height;
     } else if ([tableView isEqual:twoColumnTableView]) {
         PdfTableViewCell *cell = (PdfTableViewCell *)[self tableView:tableView cellForRowAtIndexPath:indexPath];
-        [cell setNeedsLayout];
-        [cell layoutIfNeeded]; // Layout the cell
+        [cell setNeedsLayout]; // 註記cell需要重新處理Layout
+        [cell layoutIfNeeded]; // Layout the cell，重新Layout
         
         CGFloat height = CGRectGetHeight(cell.frame);
         CGSize size = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
@@ -253,7 +256,7 @@ const int TABLE_VIEW_HEADER_HEIGHT = 80;
     }
 }
 
-// header
+// Header
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return TABLE_VIEW_HEADER_HEIGHT;
 }

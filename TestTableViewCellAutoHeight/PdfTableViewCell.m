@@ -22,6 +22,7 @@
 }
 
 -(void)initUI {
+    // 設定Label自動換行，且行數設為0即不限制行數
     [self.itemLabel setLineBreakMode:NSLineBreakByWordWrapping];
     [self.itemLabel setNumberOfLines:0];
     [self.noteLabel setLineBreakMode:NSLineBreakByWordWrapping];
@@ -40,5 +41,18 @@
     [self.noteLabel setPreferredMaxLayoutWidth:CGRectGetWidth(self.noteLabel.frame)];
     [self.noteLabelWidthConstraint setConstant:CGRectGetWidth(self.contentView.frame) * 0.25 - 10];
 }
+
+#pragma mark - note
+
+/*
+ layoutSubviews補充: 在下面的情況下會被呼叫
+ 1. init初始化不會呼叫layoutSubviews
+    但是用initWithFrame初始化時，如果rect值不是CGRectZero就會呼叫
+ 2. addSubview會呼叫
+ 3. 設定view的frame，且frame前後有發生變化時會呼叫
+ 4. 滾動UIScrollView時呼叫
+ 5. 旋轉Screen時會觸發父UIView的layoutSubviews事件
+ 6. 改變一個UIView大小時會觸發父UIView的layoutSubviews事件
+ */
 
 @end
