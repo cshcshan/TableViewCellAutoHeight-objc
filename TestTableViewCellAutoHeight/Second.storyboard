@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ja1-EL-cse">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second View Controller-->
+        <scene sceneID="SO3-Os-BzW">
+            <objects>
+                <viewController id="Ja1-EL-cse" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Utb-Vg-gyL"/>
+                        <viewControllerLayoutGuide type="bottom" id="OaW-lo-jIe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="062-4o-sOB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SEG-No-NOg">
+                                <rect key="frame" x="20" y="49" width="560" height="551"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一、二欄垂直置中，第三欄靠上" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAs-gD-c0x">
+                                <rect key="frame" x="20" y="20" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="wrq-Gm-GbX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SEG-No-NOg" firstAttribute="top" secondItem="NAs-gD-c0x" secondAttribute="bottom" constant="8" id="Cuz-IL-nAb"/>
+                            <constraint firstItem="OaW-lo-jIe" firstAttribute="top" secondItem="SEG-No-NOg" secondAttribute="bottom" id="F1C-Oe-QHa"/>
+                            <constraint firstItem="SEG-No-NOg" firstAttribute="leading" secondItem="062-4o-sOB" secondAttribute="leadingMargin" id="e9u-Cl-Pys"/>
+                            <constraint firstItem="NAs-gD-c0x" firstAttribute="leading" secondItem="062-4o-sOB" secondAttribute="leadingMargin" id="eft-3X-7NL"/>
+                            <constraint firstItem="SEG-No-NOg" firstAttribute="trailing" secondItem="062-4o-sOB" secondAttribute="trailingMargin" id="h2M-kE-Rr0"/>
+                            <constraint firstItem="NAs-gD-c0x" firstAttribute="trailing" secondItem="062-4o-sOB" secondAttribute="trailingMargin" id="qbE-tS-sfD"/>
+                            <constraint firstItem="NAs-gD-c0x" firstAttribute="top" secondItem="Utb-Vg-gyL" secondAttribute="bottom" id="s1L-bC-0Zp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="SEG-No-NOg" id="PMa-6K-vOW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYu-je-JpB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="482" y="420"/>
+        </scene>
+    </scenes>
+</document>

@@ -13,10 +13,14 @@
 		337D56181BDA60FA002A18F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337D56161BDA60FA002A18F1 /* Main.storyboard */; };
 		337D561A1BDA60FA002A18F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337D56191BDA60FA002A18F1 /* Assets.xcassets */; };
 		337D561D1BDA60FA002A18F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337D561B1BDA60FA002A18F1 /* LaunchScreen.storyboard */; };
-		337D562C1BDA6242002A18F1 /* AutoSizeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D562A1BDA6242002A18F1 /* AutoSizeTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		337D562D1BDA6242002A18F1 /* AutoSizeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337D562B1BDA6242002A18F1 /* AutoSizeTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		33AFFD771BDCA1B900C00AA8 /* PdfTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AFFD751BDCA1B900C00AA8 /* PdfTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		33AFFD781BDCA1B900C00AA8 /* PdfTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AFFD761BDCA1B900C00AA8 /* PdfTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		337D562C1BDA6242002A18F1 /* AutoSizeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D562A1BDA6242002A18F1 /* AutoSizeTableViewCell.m */; };
+		337D562D1BDA6242002A18F1 /* AutoSizeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337D562B1BDA6242002A18F1 /* AutoSizeTableViewCell.xib */; };
+		33A100601C6338D0007B715F /* ThreeColumnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1005F1C6338D0007B715F /* ThreeColumnTableViewCell.m */; };
+		33A100641C6338F6007B715F /* ThreeColumnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A100631C6338F6007B715F /* ThreeColumnTableViewCell.xib */; };
+		33AFFD771BDCA1B900C00AA8 /* PdfTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AFFD751BDCA1B900C00AA8 /* PdfTableViewCell.m */; };
+		33AFFD781BDCA1B900C00AA8 /* PdfTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AFFD761BDCA1B900C00AA8 /* PdfTableViewCell.xib */; };
+		33D93A911C633831004F3F41 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D93A901C633831004F3F41 /* SecondViewController.m */; };
+		33D93A931C63383C004F3F41 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D93A921C63383C004F3F41 /* Second.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +37,15 @@
 		337D56291BDA6242002A18F1 /* AutoSizeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoSizeTableViewCell.h; sourceTree = "<group>"; };
 		337D562A1BDA6242002A18F1 /* AutoSizeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoSizeTableViewCell.m; sourceTree = "<group>"; };
 		337D562B1BDA6242002A18F1 /* AutoSizeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoSizeTableViewCell.xib; sourceTree = "<group>"; };
+		33A1005E1C6338D0007B715F /* ThreeColumnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeColumnTableViewCell.h; sourceTree = "<group>"; };
+		33A1005F1C6338D0007B715F /* ThreeColumnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeColumnTableViewCell.m; sourceTree = "<group>"; };
+		33A100631C6338F6007B715F /* ThreeColumnTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeColumnTableViewCell.xib; sourceTree = "<group>"; };
 		33AFFD741BDCA1B900C00AA8 /* PdfTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfTableViewCell.h; sourceTree = "<group>"; };
 		33AFFD751BDCA1B900C00AA8 /* PdfTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfTableViewCell.m; sourceTree = "<group>"; };
 		33AFFD761BDCA1B900C00AA8 /* PdfTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PdfTableViewCell.xib; sourceTree = "<group>"; };
+		33D93A8F1C633831004F3F41 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		33D93A901C633831004F3F41 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		33D93A921C63383C004F3F41 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,16 +83,22 @@
 				337D56131BDA60FA002A18F1 /* ViewController.h */,
 				337D56141BDA60FA002A18F1 /* ViewController.m */,
 				337D56161BDA60FA002A18F1 /* Main.storyboard */,
+				33D93A8F1C633831004F3F41 /* SecondViewController.h */,
+				33D93A901C633831004F3F41 /* SecondViewController.m */,
+				33D93A921C63383C004F3F41 /* Second.storyboard */,
 				337D56191BDA60FA002A18F1 /* Assets.xcassets */,
 				337D561B1BDA60FA002A18F1 /* LaunchScreen.storyboard */,
 				337D561E1BDA60FA002A18F1 /* Info.plist */,
 				337D560D1BDA60FA002A18F1 /* Supporting Files */,
 				337D56291BDA6242002A18F1 /* AutoSizeTableViewCell.h */,
 				337D562A1BDA6242002A18F1 /* AutoSizeTableViewCell.m */,
+				337D562B1BDA6242002A18F1 /* AutoSizeTableViewCell.xib */,
 				33AFFD741BDCA1B900C00AA8 /* PdfTableViewCell.h */,
 				33AFFD751BDCA1B900C00AA8 /* PdfTableViewCell.m */,
 				33AFFD761BDCA1B900C00AA8 /* PdfTableViewCell.xib */,
-				337D562B1BDA6242002A18F1 /* AutoSizeTableViewCell.xib */,
+				33A1005E1C6338D0007B715F /* ThreeColumnTableViewCell.h */,
+				33A1005F1C6338D0007B715F /* ThreeColumnTableViewCell.m */,
+				33A100631C6338F6007B715F /* ThreeColumnTableViewCell.xib */,
 			);
 			path = TestTableViewCellAutoHeight;
 			sourceTree = "<group>";
@@ -153,8 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D93A931C63383C004F3F41 /* Second.storyboard in Resources */,
 				337D562D1BDA6242002A18F1 /* AutoSizeTableViewCell.xib in Resources */,
 				337D561D1BDA60FA002A18F1 /* LaunchScreen.storyboard in Resources */,
+				33A100641C6338F6007B715F /* ThreeColumnTableViewCell.xib in Resources */,
 				337D561A1BDA60FA002A18F1 /* Assets.xcassets in Resources */,
 				337D56181BDA60FA002A18F1 /* Main.storyboard in Resources */,
 				33AFFD781BDCA1B900C00AA8 /* PdfTableViewCell.xib in Resources */,
@@ -168,8 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D93A911C633831004F3F41 /* SecondViewController.m in Sources */,
 				337D56151BDA60FA002A18F1 /* ViewController.m in Sources */,
 				33AFFD771BDCA1B900C00AA8 /* PdfTableViewCell.m in Sources */,
+				33A100601C6338D0007B715F /* ThreeColumnTableViewCell.m in Sources */,
 				337D562C1BDA6242002A18F1 /* AutoSizeTableViewCell.m in Sources */,
 				337D56121BDA60FA002A18F1 /* AppDelegate.m in Sources */,
 				337D560F1BDA60FA002A18F1 /* main.m in Sources */,
