@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		337D560A1BDA60FA002A18F1 /* TestTableViewCellAutoHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableViewCellAutoHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		337D560A1BDA60FA002A18F1 /* TableViewCellAutoHeight-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewCellAutoHeight-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		337D560E1BDA60FA002A18F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		337D56101BDA60FA002A18F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		337D56111BDA60FA002A18F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		337D56011BDA60F9002A18F1 = {
 			isa = PBXGroup;
 			children = (
-				337D560C1BDA60FA002A18F1 /* TestTableViewCellAutoHeight */,
+				337D560C1BDA60FA002A18F1 /* TableViewCellAutoHeight-objc */,
 				337D560B1BDA60FA002A18F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		337D560B1BDA60FA002A18F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				337D560A1BDA60FA002A18F1 /* TestTableViewCellAutoHeight.app */,
+				337D560A1BDA60FA002A18F1 /* TableViewCellAutoHeight-objc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		337D560C1BDA60FA002A18F1 /* TestTableViewCellAutoHeight */ = {
+		337D560C1BDA60FA002A18F1 /* TableViewCellAutoHeight-objc */ = {
 			isa = PBXGroup;
 			children = (
 				337D56101BDA60FA002A18F1 /* AppDelegate.h */,
@@ -100,7 +100,7 @@
 				33A1005F1C6338D0007B715F /* ThreeColumnTableViewCell.m */,
 				33A100631C6338F6007B715F /* ThreeColumnTableViewCell.xib */,
 			);
-			path = TestTableViewCellAutoHeight;
+			path = "TableViewCellAutoHeight-objc";
 			sourceTree = "<group>";
 		};
 		337D560D1BDA60FA002A18F1 /* Supporting Files */ = {
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		337D56091BDA60FA002A18F1 /* TestTableViewCellAutoHeight */ = {
+		337D56091BDA60FA002A18F1 /* TableViewCellAutoHeight-objc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 337D56211BDA60FA002A18F1 /* Build configuration list for PBXNativeTarget "TestTableViewCellAutoHeight" */;
+			buildConfigurationList = 337D56211BDA60FA002A18F1 /* Build configuration list for PBXNativeTarget "TableViewCellAutoHeight-objc" */;
 			buildPhases = (
 				337D56061BDA60F9002A18F1 /* Sources */,
 				337D56071BDA60F9002A18F1 /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = TestTableViewCellAutoHeight;
+			name = "TableViewCellAutoHeight-objc";
 			productName = TestTableViewCellAutoHeight;
-			productReference = 337D560A1BDA60FA002A18F1 /* TestTableViewCellAutoHeight.app */;
+			productReference = 337D560A1BDA60FA002A18F1 /* TableViewCellAutoHeight-objc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 337D56051BDA60F9002A18F1 /* Build configuration list for PBXProject "TestTableViewCellAutoHeight" */;
+			buildConfigurationList = 337D56051BDA60F9002A18F1 /* Build configuration list for PBXProject "TableViewCellAutoHeight-objc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				337D56091BDA60FA002A18F1 /* TestTableViewCellAutoHeight */,
+				337D56091BDA60FA002A18F1 /* TableViewCellAutoHeight-objc */,
 			);
 		};
 /* End PBXProject section */
@@ -306,10 +306,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = TestTableViewCellAutoHeight/Info.plist;
+				INFOPLIST_FILE = "TableViewCellAutoHeight-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestTableViewCellAutoHeight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cshan.TableViewCellAutoHeight-objc";
+				PRODUCT_NAME = "TableViewCellAutoHeight-objc";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -320,10 +320,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = TestTableViewCellAutoHeight/Info.plist;
+				INFOPLIST_FILE = "TableViewCellAutoHeight-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestTableViewCellAutoHeight;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cshan.TableViewCellAutoHeight-objc";
+				PRODUCT_NAME = "TableViewCellAutoHeight-objc";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -331,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		337D56051BDA60F9002A18F1 /* Build configuration list for PBXProject "TestTableViewCellAutoHeight" */ = {
+		337D56051BDA60F9002A18F1 /* Build configuration list for PBXProject "TableViewCellAutoHeight-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				337D561F1BDA60FA002A18F1 /* Debug */,
@@ -340,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		337D56211BDA60FA002A18F1 /* Build configuration list for PBXNativeTarget "TestTableViewCellAutoHeight" */ = {
+		337D56211BDA60FA002A18F1 /* Build configuration list for PBXNativeTarget "TableViewCellAutoHeight-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				337D56221BDA60FA002A18F1 /* Debug */,

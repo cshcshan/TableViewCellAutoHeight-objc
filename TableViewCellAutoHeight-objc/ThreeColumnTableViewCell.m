@@ -1,6 +1,6 @@
 //
 //  ThreeColumnTableViewCell.m
-//  TestTableViewCellAutoHeight
+//  TableViewCellAutoHeight-objc
 //
 //  Created by Han Chen on 2016/2/4.
 //  Copyright © 2016年 Han Chen. All rights reserved.
